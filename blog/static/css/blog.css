@@ -1,0 +1,70 @@
+@import url(//db.onlinewebfonts.com/c/454eeab0ee4d77fef39d7d828f54f511?family=Drawing+Guides);
+
+@font-face {font-family: "Drawing Guides";
+    src: url("//db.onlinewebfonts.com/t/454eeab0ee4d77fef39d7d828f54f511.eot");
+    src: url("//db.onlinewebfonts.com/t/454eeab0ee4d77fef39d7d828f54f511.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/454eeab0ee4d77fef39d7d828f54f511.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/454eeab0ee4d77fef39d7d828f54f511.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/454eeab0ee4d77fef39d7d828f54f511.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/454eeab0ee4d77fef39d7d828f54f511.svg#Drawing Guides") format("svg");
+}
+
+
+h2 b {
+  color: #4B9BC4;
+}
+
+body {
+  padding: inherit;
+  margin: auto;
+}
+
+.banner_titulo {
+  background-color: #000000;
+  margin-top: 0;
+  padding: 15px 20px 20px 15px;
+}
+
+.banner_titulo h1, .banner_titulo h1 a, .banner_titulo h1 a:visited, .banner_titulo h1 a:active{
+  color: #FFFFFF;
+  font-size: 36pt;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 40px;
+}
+
+h1, h2 {
+  font-family: 'Drawing Guides';
+}
+
+
+
+.date {
+  float: right;
+  color: #828282;
+}
+
+.save {
+  float: right;
+}
+
+.post-form textarea, .post-form input {
+  width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited{
+  color: #9A1515;
+  float: right;
+  font-size: 26pt;
+  margin-right: 20px;
+}
+
+.post {
+  margin-bottom: 70px;
+}
+
+.post h2 b, .post h2 b:visited {
+  color: #000000;
+}
