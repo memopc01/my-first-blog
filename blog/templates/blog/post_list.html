@@ -9,14 +9,11 @@
 
     <div>
       <h2><a href="/">Mi Primer Blog</a></h2>
-      <p>De uniformes, proteas y algo mas!!</p>
+      {% for post in posts %}
+      <div><h2><a herf = "" >{{post.title}}</a></h2><p> {{post.text|linebreaksbr}}</p></div>{% endfor %}
+      
     </div>
 
-    <div>
-      <h3><a href="/">Mi Segundo Blog</a></h3>
-      <p>Trascender!!</p>
-
-    </div>
 
   </body>
 </html>
